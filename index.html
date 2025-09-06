@@ -1,3 +1,369 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElevateCRM - Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-section">
+                <div class="client-logo">
+                    <svg width="140" height="70" viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Enhanced TSL Logo -->
+                        <defs>
+                            <!-- Gradient for company name -->
+                            <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#34495e;stop-opacity:1" />
+                            </linearGradient>
+                            
+                            <!-- Enhanced sunburst gradient -->
+                            <radialGradient id="sunburstGradient" cx="50%" cy="50%" r="60%">
+                                <stop offset="0%" style="stop-color:#f39c12;stop-opacity:1" />
+                                <stop offset="40%" style="stop-color:#e67e22;stop-opacity:0.9" />
+                                <stop offset="100%" style="stop-color:#d35400;stop-opacity:0.8" />
+                            </radialGradient>
+                            
+                            <!-- Accent gradient -->
+                            <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#2980b9;stop-opacity:1" />
+                            </linearGradient>
+                            
+                            <!-- Subtle drop shadow filter -->
+                            <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+                                <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="rgba(0,0,0,0.15)"/>
+                            </filter>
+                        </defs>
+                        
+                        <!-- Background subtle shape -->
+                        <rect x="0" y="0" width="700" height="350" fill="none"/>
+                        
+                        <!-- Enhanced Company Name with better typography -->
+                        <text x="20" y="85" font-family="'Segoe UI', Arial, sans-serif" font-size="42" font-weight="700" 
+                              fill="url(#textGradient)" filter="url(#dropShadow)">
+                            TRANSPORTATION
+                        </text>
+                        <text x="20" y="135" font-family="'Segoe UI', Arial, sans-serif" font-size="42" font-weight="700" 
+                              fill="url(#textGradient)" filter="url(#dropShadow)">
+                            SOLUTIONS
+                        </text>
+                        <text x="240" y="135" font-family="'Segoe UI', Arial, sans-serif" font-size="42" font-weight="300" 
+                              fill="url(#accentGradient)" filter="url(#dropShadow)">
+                            &amp;
+                        </text>
+                        <text x="290" y="135" font-family="'Segoe UI', Arial, sans-serif" font-size="42" font-weight="700" 
+                              fill="url(#textGradient)" filter="url(#dropShadow)">
+                            LIGHTING
+                        </text>
+                        
+                        <!-- Enhanced Sunburst Icon -->
+                        <g transform="translate(580,80)">
+                            <!-- Central sun circle with gradient -->
+                            <circle cx="0" cy="0" r="8" fill="url(#sunburstGradient)" filter="url(#dropShadow)"/>
+                            <circle cx="0" cy="0" r="4" fill="#f1c40f" opacity="0.9"/>
+                            
+                            <!-- Enhanced sun rays with gradient -->
+                            <g stroke="url(#sunburstGradient)" stroke-width="4" opacity="0.85" stroke-linecap="round">
+                                <!-- Primary rays -->
+                                <line x1="0" y1="-35" x2="0" y2="-50" stroke-width="5"/>
+                                <line x1="25" y1="-25" x2="35" y2="-35" stroke-width="4"/>
+                                <line x1="35" y1="0" x2="50" y2="0" stroke-width="5"/>
+                                <line x1="25" y1="25" x2="35" y2="35" stroke-width="4"/>
+                                <line x1="0" y1="35" x2="0" y2="50" stroke-width="5"/>
+                                <line x1="-25" y1="25" x2="-35" y2="35" stroke-width="4"/>
+                                <line x1="-35" y1="0" x2="-50" y2="0" stroke-width="5"/>
+                                <line x1="-25" y1="-25" x2="-35" y2="-35" stroke-width="4"/>
+                                
+                                <!-- Secondary rays -->
+                                <line x1="18" y1="-30" x2="26" y2="-42" stroke-width="3"/>
+                                <line x1="30" y1="-18" x2="42" y2="-26" stroke-width="3"/>
+                                <line x1="30" y1="18" x2="42" y2="26" stroke-width="3"/>
+                                <line x1="18" y1="30" x2="26" y2="42" stroke-width="3"/>
+                                <line x1="-18" y1="30" x2="-26" y2="42" stroke-width="3"/>
+                                <line x1="-30" y1="18" x2="-42" y2="26" stroke-width="3"/>
+                                <line x1="-30" y1="-18" x2="-42" y2="-26" stroke-width="3"/>
+                                <line x1="-18" y1="-30" x2="-26" y2="-42" stroke-width="3"/>
+                            </g>
+                        </g>
+                        
+                        <!-- Enhanced Subtitle with better styling -->
+                        <text x="25" y="185" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600" 
+                              fill="#27ae60" letter-spacing="0.5px">
+                            NATIONAL SAFETY SYSTEMS
+                        </text>
+                        
+                        <!-- Powered by section with better alignment -->
+                        <text x="25" y="215" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" 
+                              fill="#7f8c8d" letter-spacing="0.3px">
+                            powered by 
+                        </text>
+                        <text x="140" y="215" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="700" 
+                              fill="url(#accentGradient)" letter-spacing="1px" filter="url(#dropShadow)">
+                            TSL
+                        </text>
+                        
+                        <!-- Modern arrow design -->
+                        <g transform="translate(25,240)">
+                            <path d="M 0 0 L 25 15 L 0 30 L 5 35 L 35 15 L 5 -5 Z" 
+                                  fill="url(#accentGradient)" 
+                                  filter="url(#dropShadow)"
+                                  opacity="0.9"/>
+                        </g>
+                        
+                        <!-- Decorative accent line -->
+                        <line x1="25" y1="295" x2="650" y2="295" stroke="url(#accentGradient)" stroke-width="2" opacity="0.3"/>
+                    </svg>
+                </div>
+                <div class="divider"></div>
+                <h1 class="logo">ElevateCRM Demo</h1>
+            </div>
+            <nav class="nav">
+                <button class="nav-btn active" data-section="dashboard">Dashboard</button>
+                <button class="nav-btn" data-section="leads">Lead Flow</button>
+                <button class="nav-btn" data-section="inventory">Inventory</button>
+                <button class="nav-btn" data-section="orders">Orders</button>
+                <button class="nav-btn" data-section="barcode">Barcode/QR</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Dashboard Section -->
+            <section id="dashboard" class="section active">
+                <h2>Dashboard Overview</h2>
+                <div class="dashboard-grid">
+                    <div class="card">
+                        <h3>Active Leads</h3>
+                        <div class="metric">247</div>
+                        <p class="metric-label">+12% this month</p>
+                    </div>
+                    <div class="card">
+                        <h3>Inventory Items</h3>
+                        <div class="metric">1,523</div>
+                        <p class="metric-label">89% in stock</p>
+                    </div>
+                    <div class="card">
+                        <h3>Pending Orders</h3>
+                        <div class="metric">34</div>
+                        <p class="metric-label">Processing</p>
+                    </div>
+                    <div class="card">
+                        <h3>Monthly Revenue</h3>
+                        <div class="metric">$45,230</div>
+                        <p class="metric-label">+8% vs last month</p>
+                    </div>
+                </div>
+                <div class="recent-activity">
+                    <h3>Recent Activity</h3>
+                    <ul class="activity-list">
+                        <li>New lead: City of Springfield - Traffic Management</li>
+                        <li>Order #1234 shipped - Blue Light Tower system</li>
+                        <li>Inventory updated: K5 Security Robot (2 units restocked)</li>
+                        <li>Lead converted: Port Authority - $150,000 deal</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Lead Flow Section -->
+            <section id="leads" class="section">
+                <h2>Lead Management</h2>
+                <div class="lead-flow">
+                    <div class="lead-stage">
+                        <h3>New Leads</h3>
+                        <div class="lead-card">
+                            <h4>City of Springfield</h4>
+                            <p>Municipal Government</p>
+                            <p>Interest: Traffic Management System</p>
+                            <button class="btn btn-primary" onclick="promoteCard(this, 'qualified')">Promote Lead</button>
+                        </div>
+                        <div class="lead-card">
+                            <h4>Metro University</h4>
+                            <p>Educational Institution</p>
+                            <p>Interest: Campus Safety Lighting</p>
+                            <button class="btn btn-primary" onclick="promoteCard(this, 'qualified')">Promote Lead</button>
+                        </div>
+                    </div>
+                    <div class="lead-stage">
+                        <h3>Qualified</h3>
+                        <div class="lead-card">
+                            <h4>Port Authority</h4>
+                            <p>Transportation Agency</p>
+                            <p>Budget: $150,000</p>
+                            <button class="btn btn-success" onclick="promoteCard(this, 'proposal')">Send Proposal</button>
+                        </div>
+                    </div>
+                    <div class="lead-stage">
+                        <h3>Proposal Sent</h3>
+                        <div class="lead-card">
+                            <h4>State Highway Dept</h4>
+                            <p>Government Agency</p>
+                            <p>Proposal: $250,000</p>
+                            <button class="btn btn-warning" onclick="promoteCard(this, 'closed')">Close Deal</button>
+                        </div>
+                    </div>
+                    <div class="lead-stage">
+                        <h3>Closed Won</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Inventory Section -->
+            <section id="inventory" class="section">
+                <h2>Inventory Management</h2>
+                <div class="inventory-controls">
+                    <button class="btn btn-primary" onclick="addInventoryItem()">Add New Item</button>
+                    <input type="text" placeholder="Search inventory..." class="search-input">
+                </div>
+                <div class="inventory-grid">
+                    <div class="inventory-item">
+                        <h4>Blue Light Tower</h4>
+                        <p>SKU: BLT001</p>
+                        <p>Stock: <span class="stock-level medium">10 units</span></p>
+                        <p>Price: $8,500.00</p>
+                        <button class="btn btn-secondary" onclick="reserveStock(this)">Reserve Stock</button>
+                    </div>
+                    <div class="inventory-item">
+                        <h4>K5 Security Robot</h4>
+                        <p>SKU: BLT008</p>
+                        <p>Stock: <span class="stock-level low">2 units</span></p>
+                        <p>Price: $45,000.00</p>
+                        <button class="btn btn-secondary" onclick="reserveStock(this)">Reserve Stock</button>
+                    </div>
+                    <div class="inventory-item">
+                        <h4>Portable Traffic Signal</h4>
+                        <p>SKU: TPS001</p>
+                        <p>Stock: <span class="stock-level low">4 units</span></p>
+                        <p>Price: $40,000.00</p>
+                        <button class="btn btn-secondary" onclick="reserveStock(this)">Reserve Stock</button>
+                    </div>
+                    <div class="inventory-item">
+                        <h4>LED Radar Sign</h4>
+                        <p>SKU: TPS003</p>
+                        <p>Stock: <span class="stock-level medium">15 units</span></p>
+                        <p>Price: $2,500.00</p>
+                        <button class="btn btn-secondary" onclick="reserveStock(this)">Reserve Stock</button>
+                    </div>
+                    <div class="inventory-item">
+                        <h4>Smart Solar Bench</h4>
+                        <p>SKU: ENG005</p>
+                        <p>Stock: <span class="stock-level medium">15 units</span></p>
+                        <p>Price: $5,500.00</p>
+                        <button class="btn btn-secondary" onclick="reserveStock(this)">Reserve Stock</button>
+                    </div>
+                    <div class="inventory-item">
+                        <h4>Speed Hump</h4>
+                        <p>SKU: RTC001</p>
+                        <p>Stock: <span class="stock-level high">100 units</span></p>
+                        <p>Price: $150.00</p>
+                        <button class="btn btn-secondary" onclick="reserveStock(this)">Reserve Stock</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Orders Section -->
+            <section id="orders" class="section">
+                <h2>Order Management</h2>
+                <div class="order-controls">
+                    <button class="btn btn-primary" onclick="createNewOrder()">Create Order</button>
+                    <select class="filter-select">
+                        <option>All Orders</option>
+                        <option>Pending</option>
+                        <option>Processing</option>
+                        <option>Shipped</option>
+                        <option>Delivered</option>
+                    </select>
+                </div>
+                <div class="orders-list">
+                    <div class="order-card">
+                        <div class="order-header">
+                            <h4>Order #ORD-001</h4>
+                            <span class="status pending">Pending</span>
+                        </div>
+                        <p>Customer: Springfield Public Works</p>
+                        <p>Items: Blue Light Tower (2), Solar Kit (2)</p>
+                        <p>Total: $24,000.00</p>
+                        <button class="btn btn-success" onclick="processOrder(this)">Process Order</button>
+                    </div>
+                    <div class="order-card">
+                        <div class="order-header">
+                            <h4>Order #ORD-002</h4>
+                            <span class="status processing">Processing</span>
+                        </div>
+                        <p>Customer: Metro University Security</p>
+                        <p>Items: K5 Security Robot (1), Smart Solar Bench (3)</p>
+                        <p>Total: $61,500.00</p>
+                        <button class="btn btn-warning" onclick="shipOrder(this)">Ship Order</button>
+                    </div>
+                    <div class="order-card">
+                        <div class="order-header">
+                            <h4>Order #ORD-003</h4>
+                            <span class="status shipped">Shipped</span>
+                        </div>
+                        <p>Customer: Highway Department</p>
+                        <p>Items: Portable Traffic Signal (1)</p>
+                        <p>Total: $40,000.00</p>
+                        <p>Tracking: TRK123456789</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Barcode/QR Section -->
+            <section id="barcode" class="section">
+                <h2>Barcode & QR Code Scanner</h2>
+                <div class="scanner-container">
+                    <div class="scanner-viewport">
+                        <div class="scanner-overlay">
+                            <div class="scan-line"></div>
+                            <p>Position barcode/QR code within the frame</p>
+                        </div>
+                    </div>
+                    <div class="scanner-controls">
+                        <button class="btn btn-primary scanner-btn" onclick="simulateScan()">Simulate Scan</button>
+                        <button class="btn btn-secondary" onclick="toggleCamera()">Toggle Camera</button>
+                    </div>
+                    <div class="scan-result" id="scanResult">
+                        <h4>Last Scan Result:</h4>
+                        <p id="scanData">No scan performed yet</p>
+                        <div id="scanActions" class="scan-actions" style="display: none;">
+                            <button class="btn btn-success" onclick="addToInventory()">Add to Inventory</button>
+                            <button class="btn btn-info" onclick="viewDetails()">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="scan-history">
+                    <h3>Recent Scans</h3>
+                    <ul id="scanHistoryList">
+                        <li>SKU: WPA-001 - Widget Pro A (2 minutes ago)</li>
+                        <li>QR: ORD-002 - Order Lookup (5 minutes ago)</li>
+                        <li>SKU: TMC-003 - Tool Master C (12 minutes ago)</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 ElevateCRM Demo for TS&L by TECHGURU. Built for demonstration purposes.</p>
+        </div>
+    </footer>
+
+    <!-- Status Messages -->
+    <div id="statusMessage" class="status-message"></div>
+
+    <script src="demo.js"></script>
+</body>
+</html>
+=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -317,3 +683,4 @@
     <script src="demo.js"></script>
 </body>
 </html>
+>>>>>>> c34689f9250e47ce4c05b66c143fd2ba3d9e7ff7
