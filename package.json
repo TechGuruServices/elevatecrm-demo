@@ -1,0 +1,15 @@
+{
+  "name": "elevatecrm-screenshots",
+  "version": "1.0.0",
+  "description": "Automated screenshot capture for ElevateCRM demo",
+  "main": "scripts/screenshot.js",
+  "scripts": {
+    "screenshot": "node scripts/screenshot.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  },
+  "keywords": ["puppeteer", "screenshots", "automation", "demo"],
+  "author": "",
+  "license": "MIT"
+}
